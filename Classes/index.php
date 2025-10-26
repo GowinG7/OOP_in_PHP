@@ -75,7 +75,6 @@
         setTimeout(function() {
             var msg = document.getElementById("successMsg");
             if (msg) msg.style.display = "none";
-            // 🔹 Simple: remove the query part (?signup=success) from URL
             window.history.replaceState(null, "", window.location.pathname);
         }, 2000);
     </script>';
